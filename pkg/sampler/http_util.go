@@ -1,11 +1,11 @@
 package sampler
 
 import (
-	"net/http"
 	"bufio"
-	"strings"
 	"fmt"
+	"net/http"
 	"strconv"
+	"strings"
 )
 
 func parseStatus(r *bufio.Reader) (int, error) {

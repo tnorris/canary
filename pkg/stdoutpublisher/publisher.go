@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/canaryio/canary/pkg/sensor"
+	"github.com/tnorris/canary/pkg/sensor"
 )
 
 // Publisher implements canary.Publisher, and is our

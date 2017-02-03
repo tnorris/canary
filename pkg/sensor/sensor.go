@@ -3,7 +3,7 @@ package sensor
 import (
 	"time"
 
-	"github.com/canaryio/canary/pkg/sampler"
+	"github.com/tnorris/canary/pkg/sampler"
 )
 
 // Measurement reprents an aggregate of Target, Sample and error.

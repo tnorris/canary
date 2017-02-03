@@ -6,7 +6,7 @@ a mutli-site monitoring tool.
 ## Installation
 
 ```sh
-$ go get github.com/canaryio/canary/cmd/canaryd
+$ go get github.com/tnorris/canary/cmd/canaryd
 ```
 
 ## Configuration

@@ -7,8 +7,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/canaryio/canary/pkg/manifest"
-	"github.com/canaryio/canary/pkg/sensor"
+	"github.com/tnorris/canary/pkg/manifest"
+	"github.com/tnorris/canary/pkg/sensor"
 )
 
 type Canary struct {

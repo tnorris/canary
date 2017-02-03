@@ -7,10 +7,10 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/canaryio/canary"
-	"github.com/canaryio/canary/pkg/manifest"
-	"github.com/canaryio/canary/pkg/sampler"
-	"github.com/canaryio/canary/pkg/stdoutpublisher"
+	"github.com/tnorris/canary"
+	"github.com/tnorris/canary/pkg/manifest"
+	"github.com/tnorris/canary/pkg/sampler"
+	"github.com/tnorris/canary/pkg/stdoutpublisher"
 )
 
 // usage prints a useful usage message.

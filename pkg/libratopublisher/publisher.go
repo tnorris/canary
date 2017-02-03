@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/canaryio/canary/pkg/libratoaggregator"
-	"github.com/canaryio/canary/pkg/sampler"
-	"github.com/canaryio/canary/pkg/sensor"
+	"github.com/tnorris/canary/pkg/libratoaggregator"
+	"github.com/tnorris/canary/pkg/sampler"
+	"github.com/tnorris/canary/pkg/sensor"
 )
 
 // Publisher implements the canary.Publisher interface and

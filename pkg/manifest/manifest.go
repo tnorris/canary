@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/canaryio/canary/pkg/sampler"
+	"github.com/tnorris/canary/pkg/sampler"
 )
 
 // Manifest represents configuration data.

@@ -3,8 +3,8 @@ package stdoutpublisher
 import (
 	"time"
 
-	"github.com/canaryio/canary/pkg/sampler"
-	"github.com/canaryio/canary/pkg/sensor"
+	"github.com/tnorris/canary/pkg/sampler"
+	"github.com/tnorris/canary/pkg/sensor"
 )
 
 func ExamplePublisher_Publish() {

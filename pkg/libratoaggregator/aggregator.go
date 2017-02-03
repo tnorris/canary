@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/canaryio/canary/pkg/canaryversion"
+	"github.com/tnorris/canary/pkg/canaryversion"
 	"log"
 	"net/http"
 	"time"

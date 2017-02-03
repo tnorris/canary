@@ -8,7 +8,7 @@ It's like ping, but for HTTP.
 ## Installation
 
 ```sh
-$ go get github.com/canaryio/canary/cmd/canary
+$ go get github.com/tnorris/canary/cmd/canary
 ```
 
 ## Usage
