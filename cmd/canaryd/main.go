@@ -131,8 +131,8 @@ func main() {
 
 	// Fire up expvar
 	go func() {
-		var testExport = expvar.NewString("test_export")
-		testExport.Set("hello")
+		var testExport = expvar.NewString("hello")
+		testExport.Set("world")
 		http.ListenAndServe(":5000", nil)
 	}()
 
