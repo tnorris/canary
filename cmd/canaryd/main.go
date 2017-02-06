@@ -129,12 +129,15 @@ func main() {
 	c.Config = conf
 	c.Manifest = manifest
 
+	// Fire up expvar
+	go func() {
+		var testExport = expvar.NewString("test_export")
+		testExport.Set("hello")
+		http.ListenAndServe(":5000", nil)
+	}()
+
 	// Start canary and block in the signal handler
 	c.Run()
-	var testExport = expvar.NewString("test_export")
-	testExport.Set("hello")
-
-	http.ListenAndServe(":8080", nil)
 
 	u, _ := time.ParseDuration("0s")
 	if c.Config.ReloadInterval != u {
